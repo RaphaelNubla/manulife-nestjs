@@ -2,7 +2,6 @@ import { Controller, Post, Body, Get } from "@nestjs/common";
 import { SalesService } from "./sales.service";
 
 //post is for adding or apending
-
 //localhost:3000/sales/record 
 //localhost:3000/sales/report
 @Controller('sales')
